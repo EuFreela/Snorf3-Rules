@@ -169,6 +169,12 @@ sudo snort -c /etc/snort/snort.lua -i <interface> -A fast -l /var/log/snort
 
 > Substitua `<interface>` pelo nome da interface de rede (por exemplo, `eth0` ou `wlan0`).
 
+Para garantir a leitura de pacotes grades contendo seu valor maximo medido em bytes
+
+```bash
+sudo snort --daq-dir=/usr/local/lib/daq --daq pcap --daq-var snaplen=65535 -i <interface> -c /usr/local/etc/snort/snort.lua -A fast -l /var/log/snort
+```
+
 Para monitorar os alertas registrados:
 
 ```bash
