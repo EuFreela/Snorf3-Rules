@@ -178,6 +178,5 @@ tail -f /var/log/snort/alert_fast.txt
 ## Conclusão
 
 Com o Snort instalado e configurado, você agora possui uma poderosa ferramenta de detecção de intrusão para monitorar e proteger sua rede. Expanda as regras e configurações conforme necessário para atender às necessidades específicas de segurança do seu ambiente.
-```
 
-Este README em Markdown fornece uma estrutura clara e organizada para documentar o processo de instalação e configuração do Snort 3 no GitHub, com detalhes suficientes para orientar usuários no processo de implementação e personalização de regras.
+Para mais detalhes leia: https://lameckfernandes.wordpress.com/2024/11/02/snort3-0/
