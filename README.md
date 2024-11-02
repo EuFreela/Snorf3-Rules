@@ -1,5 +1,6 @@
 # Instalação e Configuração do Snort 3 no [ParrotOS](https://parrotsec.org/)
 
+![snort3](https://blog.talosintelligence.com/content/images/2023/09/Snort-inspectors.jpg)
 Este guia cobre os passos necessários para instalar e configurar o **Snort 3**, uma poderosa ferramenta de detecção e prevenção de intrusões (IDS/IPS) no Linux.
 Neste github esta uma lista de rules que poderá utilizar nas suas configurações.
 
