@@ -175,6 +175,12 @@ Para monitorar os alertas registrados:
 tail -f /var/log/snort/alert_fast.txt
 ```
 
+Teste inicial:
+
+```bash
+ping 8.8.8.8
+```
+
 ## Conclusão
 
 Com o Snort instalado e configurado, você agora possui uma poderosa ferramenta de detecção de intrusão para monitorar e proteger sua rede. Expanda as regras e configurações conforme necessário para atender às necessidades específicas de segurança do seu ambiente.
