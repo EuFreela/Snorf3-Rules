@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Database Detection - MySQL"; content:"mysql_native_password"; sid:1000023; rev:1;)

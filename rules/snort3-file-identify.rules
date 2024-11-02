@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - Unknown File Identified"; content:"file"; sid:2000004; rev:1;)

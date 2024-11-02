@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - Java Archive Detected"; content:".jar"; sid:1000011; rev:1;)

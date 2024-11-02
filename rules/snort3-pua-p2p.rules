@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"PUA - P2P Activity Detected"; content:"p2p"; sid:2000035; rev:1;)

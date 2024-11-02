@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"PUA - Toolbar Detected"; content:"toolbar"; sid:2000036; rev:1;)

@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Browser - Safari Access"; content:"User-Agent: Safari"; sid:1000006; rev:1;)

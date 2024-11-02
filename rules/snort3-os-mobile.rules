@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"OS Detection - Mobile Device"; content:"Android"; sid:1000019; rev:1;)

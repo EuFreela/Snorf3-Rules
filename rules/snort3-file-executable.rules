@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - Executable Detected"; content:"MZ"; depth:4; sid:1000010; rev:1;)

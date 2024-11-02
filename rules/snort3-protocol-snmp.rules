@@ -1,0 +1,1 @@
+alert udp any any -> any 161 (msg:"Protocol - SNMP Traffic Detected"; sid:2000029; rev:1;)

@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Policy - Social Media Access Detected"; content:"social"; sid:2000016; rev:1;)

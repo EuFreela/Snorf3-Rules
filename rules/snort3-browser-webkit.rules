@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Browser - WebKit Detected"; content:"AppleWebKit"; sid:1000008; rev:1;)

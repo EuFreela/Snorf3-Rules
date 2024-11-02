@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Policy - General Policy Violation"; content:"policy"; sid:2000015; rev:1;)

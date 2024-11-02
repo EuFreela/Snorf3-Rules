@@ -1,0 +1,1 @@
+alert tcp any any -> any 23 (msg:"Protocol - Telnet Access Detected"; sid:2000030; rev:1;)

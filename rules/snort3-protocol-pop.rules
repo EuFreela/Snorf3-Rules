@@ -1,0 +1,1 @@
+alert tcp any any -> any 110 (msg:"Protocol - POP Access Detected"; sid:2000024; rev:1;)

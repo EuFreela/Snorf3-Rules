@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Server Detection - MSSQL Server"; content:"mssql"; sid:2000039; rev:1;)

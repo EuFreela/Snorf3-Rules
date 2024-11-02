@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Indicator - Compromise Detected"; content:"compromise"; sid:2000007; rev:1;)

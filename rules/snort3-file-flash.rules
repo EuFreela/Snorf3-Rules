@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - Flash File Detected"; content:".swf"; sid:2000003; rev:1;)

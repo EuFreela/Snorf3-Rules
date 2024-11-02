@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"OS Detection - Solaris Detected"; content:"solaris"; sid:2000013; rev:1;)

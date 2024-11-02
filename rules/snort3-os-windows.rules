@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"OS Detection - Windows System"; content:"Windows NT"; sid:1000021; rev:1;)

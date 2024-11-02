@@ -1,0 +1,1 @@
+alert tcp any 21 -> any any (msg:"Protocol - FTP Access Detected"; sid:2000020; rev:1;)

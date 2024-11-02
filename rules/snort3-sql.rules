@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"SQL Injection Attempt"; content:"SELECT"; sid:1000027; rev:1;)

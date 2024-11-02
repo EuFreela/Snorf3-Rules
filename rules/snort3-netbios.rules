@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Protocol - NetBIOS Detected"; content:"netbios"; sid:2000012; rev:1;)

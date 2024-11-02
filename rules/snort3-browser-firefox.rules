@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Browser - Firefox Access"; content:"User-Agent: Firefox"; sid:1000004; rev:1;)

@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - MS Office File Detected"; content:"d0cf11e0a1b11ae1"; sid:1000012; rev:1;)

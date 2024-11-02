@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Browser Plugin - Flash Detected"; content:"Shockwave Flash"; sid:1000007; rev:1;)

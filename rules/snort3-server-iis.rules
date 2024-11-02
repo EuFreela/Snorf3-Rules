@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Server Detection - IIS Server"; content:"iis"; sid:2000037; rev:1;)

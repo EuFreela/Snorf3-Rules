@@ -1,0 +1,1 @@
+alert tcp any any -> any 119 (msg:"Protocol - NNTP Access Detected"; sid:2000023; rev:1;)

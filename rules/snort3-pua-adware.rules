@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"PUA - Adware Detected"; content:"adware"; sid:2000033; rev:1;)

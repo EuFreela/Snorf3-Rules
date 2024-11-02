@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Policy - Multimedia Access Detected"; content:"multimedia"; sid:2000014; rev:1;)

@@ -1,0 +1,1 @@
+alert udp any any -> any any (msg:"Protocol - VoIP Traffic Detected"; sid:2000032; rev:1;)

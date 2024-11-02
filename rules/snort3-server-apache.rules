@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Server Detection - Apache Server"; content:"Apache"; sid:1000022; rev:1;)

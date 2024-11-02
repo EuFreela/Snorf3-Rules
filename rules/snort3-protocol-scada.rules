@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Protocol - SCADA Traffic Detected"; sid:2000027; rev:1;)

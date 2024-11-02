@@ -1,0 +1,1 @@
+alert tcp any any -> any 143 (msg:"Protocol - IMAP Access Detected"; sid:2000022; rev:1;)

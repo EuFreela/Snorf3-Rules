@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - Unknown File Type Detected"; content:"%PDF-"; sid:1000013; rev:1;)

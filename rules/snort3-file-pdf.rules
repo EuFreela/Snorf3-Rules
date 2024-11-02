@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - PDF File Detected"; content:"%PDF-"; sid:1000014; rev:1;)

@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Browser - Internet Explorer Access"; content:"User-Agent: MSIE"; sid:1000005; rev:1;)

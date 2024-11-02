@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Server Detection - Oracle Server"; content:"oracle"; sid:2000040; rev:1;)

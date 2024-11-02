@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Web Application - WebApp Detected"; content:"webapp"; sid:1000026; rev:1;)

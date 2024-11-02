@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Protocol - RPC Call Detected"; sid:2000026; rev:1;)

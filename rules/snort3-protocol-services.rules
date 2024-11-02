@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Protocol - Common Service Detected"; sid:2000028; rev:1;)

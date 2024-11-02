@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Policy - Spam Detected"; content:"spam"; sid:2000017; rev:1;)

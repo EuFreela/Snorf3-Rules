@@ -1,0 +1,1 @@
+alert udp any 53 -> any any (msg:"Protocol - DNS Query Detected"; sid:2000018; rev:1;)

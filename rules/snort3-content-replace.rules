@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Content Replace - Detected"; content:"replace-content"; sid:2000002; rev:1;)

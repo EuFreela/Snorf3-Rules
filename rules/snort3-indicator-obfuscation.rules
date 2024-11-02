@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Indicator - Obfuscation Detected"; content:"obfuscation"; sid:2000008; rev:1;)

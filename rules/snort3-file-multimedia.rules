@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"File Transfer - Multimedia File Detected"; content:"multimedia"; sid:2000006; rev:1;)

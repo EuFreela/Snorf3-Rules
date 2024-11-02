@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Protocol - X11 Traffic Detected"; content:"x11"; sid:2000041; rev:1;)

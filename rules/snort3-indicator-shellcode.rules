@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"Indicator - Shellcode Detected"; content:"shellcode"; sid:2000010; rev:1;)
